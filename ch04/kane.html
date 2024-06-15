@@ -24,12 +24,29 @@
         .container > .checkbox { flex: 1 0 20px; }
         .container > .subject  { flex: 1 0 400px; }
         .container > .date     { flex: 1 0 120px; }
+
+        .menu {
+             display: flex;
+                /* justify-content: space-between; */
+                padding: 10px;
+                background-color: #f0f0f0;
+
+        }
+        .menu > .left  { align-self: flex-start; }
+        .menu > .right { align-self: flex-end; }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <header>
+
+        <menu class="menu">
+            <div class="left">Left</div>
+            <div class="right">Right</div>
+         </menu>   
+    </header>
     <div>
      
             <div class="container">
