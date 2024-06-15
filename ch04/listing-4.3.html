@@ -38,6 +38,20 @@
       max-width: 1080px;
       margin: 0 auto;
     }
+
+    .media {
+      float: left;
+      width: 50%;
+      padding: 1.5em;
+      background-color: #eee;
+      border-radius: 0.5em;
+    }
+
+    .clearfix::after {
+      display: block;
+      content: " ";
+      clear: both;
+    }
   </style>
 </head>
 
@@ -99,6 +113,8 @@
         </div>
 
       </div>
+
+      <div style="clear: both"></div>
     </main>
   </div>
 </body>
